@@ -24,7 +24,9 @@
     <h3 style="font-family:Arial">Login</h3>
     <input type="text" placeholder="Email" class="email-input-box"/>
     <input type="text" placeholder="Password" class="email-input-box"/>
-
+    <input type="submit" class="submit-login" name="submit-login">
+    <a class="sign-up-link">Sign-up</a>
   </div>  
- </form> 
+ </form>
+ <script src="sign-up.js"></script> 
 </body>
