@@ -50,6 +50,8 @@
     outline: none;
     border-radius: .5rem;
     background-color: transparent;
+
+    padding-left: 1rem;
 }
 
 .email-input-box:hover{
@@ -78,4 +80,9 @@
 
 .submit-login:active{
   background-color: rgb(196, 195, 195);
+}
+
+.sign-up-link{
+  margin-left: .5rem;
+  color: rgb(67, 67, 231);
 }

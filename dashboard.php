@@ -19,14 +19,7 @@
     </p>
    <h1 class="catch-phrase">Be yourself</h1>
   </div>
- <form class="dashboard-login-side">
-   <div class="login-column"> 
-    <h3 style="font-family:Arial">Login</h3>
-    <input type="text" placeholder="Email" class="email-input-box"/>
-    <input type="text" placeholder="Password" class="email-input-box"/>
-    <input type="submit" class="submit-login" name="submit-login">
-    <a class="sign-up-link">Sign-up</a>
-  </div>  
- </form>
+  <?php include 'login.php'; ?>
+
  <script src="sign-up.js"></script> 
 </body>
