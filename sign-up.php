@@ -3,6 +3,9 @@
   include 'connection.php';
 
   if(isset($_POST['signup'])){
+     if(empty($_POST['signup-email'])){
+        echo "empty";
+     }
   }
 
 ?> 

@@ -10,24 +10,26 @@ let email= '';
 
 let isEmailTyped = false;
 
-
+//Email verifier **regex
 verifyEmail= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-//check if email input if type 
+//Initially disables email input if empty
+submitButton.setAttribute('class','submit-login-disabled');
+submitButton.setAttribute('disabled','true');  
+
+
+//check email input if typing 
   emailInputSignUp.addEventListener('keydown',(event)=>{
      if(event.key){
       isEmailTyped = true;
       if(verifyEmail.test(emailInputSignUp.value) && isEmailTyped){
         submitButton.setAttribute('class','submit-login');
         submitButton.removeAttribute('disabled');
-        }
+        } 
        if(verifyEmail.test(emailInputSignUp.value)== false){
-        console.log('false')
         submitButton.setAttribute('class','submit-login-disabled');
-        submitButton.setAttribute('disabled','true');
+        submitButton.setAttribute('disabled','true');  
        }
       }
      }
   )
-
-
