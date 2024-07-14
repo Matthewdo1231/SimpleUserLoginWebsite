@@ -71,6 +71,19 @@
 
     color: white;
     background-color: rgb(133, 133, 133);
+
+}
+
+.submit-login-disabled{
+   align-self: center;
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1.5rem;
+
+    color: white;
+    background-color: rgb(204, 203, 203);
+
 }
 
 .submit-login:hover{
@@ -86,3 +99,4 @@
   margin-left: .5rem;
   color: rgb(67, 67, 231);
 }
+
